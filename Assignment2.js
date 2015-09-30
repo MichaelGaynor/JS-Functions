@@ -78,19 +78,29 @@ function reverse(a){
 // Write a function findLongestWord() that takes an array of words and 
 //returns the length of the longest one.
 // ---------------------
-  words.reduce(function(longest, current) {
+var findLongestWord = function(arr, i) {
+  return words.reduce(function(longest, current) {
     if (current.length > longest.length) {longest = current;}
     return longest
-    })
-
+    });
+}
 // ---------------------
 // Write a function filterLongWords() that takes an array of words 
 //and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
-words.filter(function(word){
+var filterLongWords = function(
+{words.filter(function(word){
   return word.length > i;
-})
+}))
+
+
+var filterLongWords = function(arr, i) {
+  var newWords = words.filter(function(word){
+    return word.length > i;
+  });
+  return newWords;
+}
   
 
 // ---------------------
@@ -99,6 +109,9 @@ words.filter(function(word){
 //Javascript object. Try it with something like 
 //charFreq("abbabcbdbabdbdbabababcbcbab").
 // ---------------------
+
+
+
 
 function charFreq(string){
     //...
