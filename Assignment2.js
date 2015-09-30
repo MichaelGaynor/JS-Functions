@@ -78,7 +78,6 @@ function reverse(a){
 // Write a function findLongestWord() that takes an array of words and 
 //returns the length of the longest one.
 // ---------------------
-var words = ['sweet', 'cats', 'dancing']
   words.reduce(function(longest, current) {
     if (current.length > longest.length) {longest = current;}
     return longest
@@ -89,9 +88,10 @@ var words = ['sweet', 'cats', 'dancing']
 //and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
-function filterLongWords(words, i){
-    
-};
+words.filter(function(word){
+  return word.length > i;
+})
+  
 
 // ---------------------
 // Write a function charFreq() that takes a string and builds a frequency listing 
