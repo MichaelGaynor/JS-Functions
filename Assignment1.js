@@ -53,9 +53,9 @@ var getLength = function(stringy){
 // the function should return `false`.
 var greaterThan = function(a,b){
   if (a<b) {
-    return "true"
+    return 'true'
   }
-  else {return "false"};
+  else {return 'false'};
 };
 
 
@@ -66,7 +66,7 @@ var greaterThan = function(a,b){
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 var greet = function(Name){
-  return "Howdy hi ho there, " + Name + "!"
+  return 'Howdy hi ho there, ' + Name + '!'
 };
 
 
@@ -82,8 +82,8 @@ var greet = function(Name){
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 var madlib = function(a,b,c,d){
-  return "Hi there " + a + ", how's " + b 
-  + "? Do they still " + c + " every " + d + "?"
+  return 'Hi there ' + a + ', how\'s' ' + b 
+  + '? Do they still ' + c + '' every '' + d + '?'
 };
 
 
