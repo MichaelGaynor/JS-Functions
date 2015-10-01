@@ -61,7 +61,8 @@ function isVowel(char){
 // ---------------------
 
 function rovarspraket(phrase){
-    //...
+    var bits = phrase.split('');
+
 };
 
 
@@ -78,6 +79,7 @@ function reverse(a){
 // Write a function findLongestWord() that takes an array of words and 
 //returns the length of the longest one.
 // ---------------------
+
 var findLongestWord = function(arr, i) {
   return words.reduce(function(longest, current) {
     if (current.length > longest.length) {longest = current;}
@@ -88,11 +90,6 @@ var findLongestWord = function(arr, i) {
 // Write a function filterLongWords() that takes an array of words 
 //and an integer i and returns the array of words that are longer than i.
 // ---------------------
-
-var filterLongWords = function(
-{words.filter(function(word){
-  return word.length > i;
-}))
 
 
 var filterLongWords = function(arr, i) {
@@ -114,5 +111,10 @@ var filterLongWords = function(arr, i) {
 
 
 function charFreq(string){
-    //...
+  var newWord = 
 };
+
+
+
+
+
