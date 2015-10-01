@@ -82,8 +82,8 @@ var greet = function(Name){
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 var madlib = function(a,b,c,d){
-  return 'Hi there ' + a + ', how\'s' ' + b 
-  + '? Do they still ' + c + '' every '' + d + '?'
+  return 'Hi there ' + a + ', how\'s'  + b 
+  + '? Do they still ' + c + ' every ' + d + '?'
 };
 
 
