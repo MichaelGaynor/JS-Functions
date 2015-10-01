@@ -111,7 +111,9 @@ var filterLongWords = function(arr, i) {
 
 
 function charFreq(string){
-   return string.split('')
+   return string.split('').forEach(){
+    
+   }
 };
 
 
